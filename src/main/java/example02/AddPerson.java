@@ -2,13 +2,10 @@ package example02;
 
 import com.example.tutorial.AddressBookProtos.AddressBook;
 import com.example.tutorial.AddressBookProtos.Person;
-import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.PrintStream;
-import java.sql.Timestamp;
 import java.util.Random;
 
 class AddPerson {
@@ -51,6 +48,4 @@ class AddPerson {
         person.setEmail("mike"+randomInt+"@gmail.com");
         return person.build();
     }
-
-
 }
